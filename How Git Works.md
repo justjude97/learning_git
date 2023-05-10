@@ -26,6 +26,9 @@ source: https://www.youtube.com/watch?v=3fUbBnN_H2c
 * *git pull* - pulls branch of project from server
 * *git diff* - shows differences between the current working directory and the commit
     * can be used to compare commit hashes *git diff {hash 1} {hash 2}*
+* *git branch* - list and modify branches
+    * *git branch -r* shows branches of remote
+    * *git branch {name}* creates branch {name}
 
 ## Repositories
 * contains a collection of files of various different versions of a project
@@ -37,7 +40,7 @@ source: https://www.youtube.com/watch?v=3fUbBnN_H2c
 * HEAD is the commit at the tip of the branch
 * Workspace is the directory tree or (source) files that you see and edit
     * working tree is the state of the files at *checkout*
-* Index is a single, large, binary file (.git/index) which lists all the files in the current branch, their sha1 checksums, timestamps,a nd teh file name
+* Index is a single, large, binary file (.git/index) which lists all the files in the current branch, their sha1 checksums, timestamps, and the file name
 * local repository is a hidden director (.git) including an objects directory containg all versions of every file in the repo (local branches and copes of remote branches as a compressed blob file)
 
 ## Commits
@@ -45,6 +48,13 @@ source: https://www.youtube.com/watch?v=3fUbBnN_H2c
 * a commit message is important to convey what a change does
     * to change the message of a commit you can use git commit --amend
 
+## Branches
+* [branches in a nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+* branches allow you to make changes to source code without messing up the mainline during development
+    * git branching is lightweight and allows for fast switching
+* remember: git stores changes as a series of **snapshots** meaning that a commit object contains a pointer to the snapshot of the object you changed
+
 
 ## Other Sources:
 * https://nfarina.com/post/9868516270/git-is-simpler
+* https://git-scm.com/book/en/v2

@@ -27,3 +27,7 @@
 [git diff](https://git-scm.com/docs/git-diff) - shows changes between commits and working tree
 
 [git remote](https://github.com/metalDS/learning_git.git) - manage set of tracked repositories whose branches you track
+
+[git branch](https://git-scm.com/docs/git-branch) - list, create, or delete branches
+
+[git submodule](https://git-scm.com/docs/git-submodule) - initialize, update, or inspect submodules
