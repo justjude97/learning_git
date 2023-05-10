@@ -29,6 +29,7 @@ source: https://www.youtube.com/watch?v=3fUbBnN_H2c
 * *git branch* - list and modify branches
     * *git branch -r* shows branches of remote
     * *git branch {name}* creates branch {name}
+* *git checkout* - switch branches or restore working tree files
 
 ## Repositories
 * contains a collection of files of various different versions of a project

@@ -8,6 +8,8 @@
 
 [git commit](https://git-scm.com/docs/git-commit) - contains a new commit containing the current contents of the index and the given log messages describing the changes. new commit is a direct child of HEAD
 
+[git checkout](https://git-scm.com/docs/git-checkout) - switch branches or restore working tree files
+
 [git push](https://git-scm.com/docs/git-push) - updates remove refs (branch?) using local ref
 
 [git pull](https://git-scm.com/docs/git-pull) - Incorporates changes from a remote repository into the current branch
